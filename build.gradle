@@ -6,10 +6,6 @@ buildscript {
         google()
         maven {
             allowInsecureProtocol = true
-            url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
-        }
-        maven {
-            allowInsecureProtocol = true
             url 'https://www.jitpack.io'
         }
         mavenCentral()
@@ -26,10 +22,6 @@ buildscript {
 allprojects {
     repositories {
         google()
-        maven {
-            allowInsecureProtocol = true
-            url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
-        }
         maven {
             allowInsecureProtocol = true
             url 'https://www.jitpack.io'
